@@ -24,10 +24,10 @@ CyberChef 주요 화면:
 
  1. 오른쪽 상단의 **[input]** 상자에는 작업하려는 텍스트를 입력하거나 파일을 드래그하여 붙여 넣을 수 있습니다.
  2. 오른쪽 하단의 **[output]** 상자에는 처리 결과가 표시됩니다.
- 3. 맨 왼쪽의 **[operations]** 목록에서 CyberChef가 수행할 수 있는 기능이 나와 있으며, 더블 클릭하거나 **recipe** 영역으로 드래하여 선택할 수 있습니다.
+ 3. 맨 왼쪽의 **[operations]** 목록에서 CyberChef가 수행할 수 있는 기능이 나와 있으며, 더블 클릭하거나 **[recipe]** 영역으로 드래하여 선택할 수 있습니다.
  4. 가운데의 **[recipe]** 영역에는 사용하려는 **operations**을 드래그하고 인수와 옵션을 지정할 수 있습니다. 다중 선택된 경우에는 위에서 부터 순차적으로 적용이 됩니다.
 
-**[operations]**은 원하는 만큼 여러 개를 사용할 수 있습니다. 몇 가지 예는 다음과 같습니다:
+**operations**은 원하는 만큼 여러 개를 사용할 수 있습니다. 몇 가지 예는 다음과 같습니다:
 
  - [Decode a Base64-encoded string][2]
  - [Convert a date and time to a different time zone][3]
