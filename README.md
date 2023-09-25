@@ -8,29 +8,26 @@
 
 #### *The Cyber Swiss Army Knife*
 
-CyberChef is a simple, intuitive web app for carrying out all manner of "cyber" operations within a web browser. These operations include simple encoding like XOR and Base64, more complex encryption like AES, DES and Blowfish, creating binary and hexdumps, compression and decompression of data, calculating hashes and checksums, IPv6 and X.509 parsing, changing character encodings, and much more.
+CyberChef는 영국 정보기관인 GCHQ에서 개발한 데이터 분석 및 변환을 위한 웹 기반 오픈 소스입니다. 
+CyberChef를 이용하면 XOR, Base64와 같은 간단한 인코딩 및 디코딩을 할 수 있고, AES, DES, Blowfish와 같은 복잡한 암/복호화, 바이너리 덤프 및 헥사덤프 생성, 데이터 압축과 해제, 해시 및 체크섬 계산, IPv6 및 X.509 파싱, 문자 인코딩 및 디코딩 등 다양한 기능을 수행할 수 있습니다.
 
-The tool is designed to enable both technical and non-technical analysts to manipulate data in complex ways without having to deal with complex tools or algorithms. It was conceived, designed, built and incrementally improved by an analyst in their 10% innovation time over several years.
+아래 링크를 콩해서 온라인 데모를 할 수도 있고, 로컬에서 인터넷 연결 없이도 사용이 가능합니다.
 
-## Live demo
-
-CyberChef is still under active development. As a result, it shouldn't be considered a finished product. There is still testing and bug fixing to do, new features to be added and additional documentation to write. Please contribute!
-
-Cryptographic operations in CyberChef should not be relied upon to provide security in any situation. No guarantee is offered for their correctness.
+## 온라인 데모
 
 [A live demo can be found here][1] - have fun!
 
 
 ## How it works
 
-There are four main areas in CyberChef:
+CyberChef 주요 화면:
 
- 1. The **input** box in the top right, where you can paste, type or drag the text or file you want to operate on.
- 2. The **output** box in the bottom right, where the outcome of your processing will be displayed.
- 3. The **operations** list on the far left, where you can find all the operations that CyberChef is capable of in categorised lists, or by searching.
- 4. The **recipe** area in the middle, where you can drag the operations that you want to use and specify arguments and options.
+ 1. 오른쪽 상단의 **input** 상자에는 작업하려는 텍스트를 입력하거나 파일을 드래그하여 붙여 넣을 수 있습니다.
+ 2. 오른쪽 하단의 **output** 상자에는 처리 결과가 표시됩니다.
+ 3. 맨 왼쪽의 **operations** 목록에서 CyberChef가 수행할 수 있는 기능이 나와 있으며, 더블 클릭하거나 **recipe** 영역으로 드래하여 선택할 수 있습니다.
+ 4. 가운데의 **recipe** 영역에는 사용하려는 **operations**을 드래그하고 인수와 옵션을 지정할 수 있습니다. 다중 선택된 경우에는 위에서 부터 순차적으로 적용이 됩니다.
 
-You can use as many operations as you like in simple or complex ways. Some examples are as follows:
+operations은 원하는 만큼 여러 개를 사용할 수 있습니다. 몇 가지 예는 다음과 같습니다:
 
  - [Decode a Base64-encoded string][2]
  - [Convert a date and time to a different time zone][3]
